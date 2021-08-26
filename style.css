@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.168);
+    min-width: 500px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.182) 5px 5px 5px;
+}
+
+form {
+    margin: 20px;
+}
+
+div {
+    background-color: white;
+    color: grey;
+    width: 300px;
+    height: 1.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+
+    font-size: 1.5em;
+
+    border-radius: 7px;
+}
